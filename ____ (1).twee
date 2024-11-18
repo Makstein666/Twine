@@ -1,0 +1,188 @@
+:: StoryTitle
+Джаз
+
+
+:: StoryData
+{
+  "ifid": "91911A8F-3681-4F52-A380-AB6DE58C12D9",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "1",
+  "zoom": 1
+}
+
+
+:: 1 [1] {"position":"700,275","size":"100,100"}
+Наша команда под названием «Овощи» получила особенное задание автоматизация документооборота студенческого билета, справки об обучении, мы должны создать историю выполнения нашей работы и вот как все начиналось.
+
+//[[Начать->2]]//
+
+
+:: 10 {"position":"725,1000","size":"100,100"}
+Следующей нашей задачей стала   автоматизация зачётной ведомости ее мы делали по тому же принципу.
+
+//[[Узнать о задаче подробнее->11]]
+[[Далее->12]]//
+
+
+:: 11 {"position":"950,1000","size":"100,100"}
+<img src="https://raw.githubusercontent.com/Makstein666/Twine/refs/heads/main/5321230395892688468%20(3).jpg" class="photo1">
+Вот чем мы занимались в данной работе. Здесь мы при помощи кода в Python создавали базу данных на базе файла в 
+Excel, создавали шаблон документа в Word и исправляли ошибки в коде другой команды.
+ //[[Вернуться->8]]//
+
+
+
+:: 12 {"position":"725,1275","size":"100,100"}
+Шестой и последний пункт нашей задачи: презентация которую вы сейчас видите и представляют которую наши ценные участники команды.
+ 
+Нам очень нравится наша команда. Все дружные овощи. 
+
+//[[Узнать про команду сначала->1]]//
+
+
+:: 2 [2] {"position":"700,400","size":"100,100"}
+Первоочередной задачей было подготовить шаблоны документов и информацию для них этим занималась Софыч.
+
+//[[Узнать о задаче подробнее->3]]
+[[Перейти к следующему участнику->4]]//
+
+
+:: 3 [3] {"position":"525,400","size":"100,100"}
+<img src="https://lh3.google.com/u/0/d/1ABAGWERSNPm0zXZYH2irvnKCHmBwcASN=w1920-h932-iv1" class="photo">
+Вот ее коментарии по поводу этой работы:
+"Было очень интересно заниматься созданием шаблона и файлов с информацией. К этой задаче я подошла очень серьезно, при создании файлов я вдохновлялась музыкой".
+
+//[[Вернуться к этому участнику->2]]//
+
+
+:: 4 [4] {"position":"700,550","size":"100,100"}
+Второй задачей нашего проекта стало написание кода, ей занимались Artembl4 и Makstein.
+
+//[[Узнать о задаче подробнее->5]]
+[[Перейти к следующему участнику->6]]//
+
+
+:: 5 [5] {"position":"850,550","size":"100,100"}
+<div class="container">
+	<img src="https://lh3.google.com/u/0/d/1vFUi0j4c-y7uZxTQgXdSklKU-cezzYd3=w1920-h932-iv1" class="photo">
+<div> 
+	<img src="https://lh3.google.com/u/0/d/1LRDOYUhfYYojwfY99Ay7hN8C4PkP-OXH=w1920-h932-iv1" class="photo">
+
+Вот их комментарии по поводу работы:
+"Мы очень старались, работа была умеренно сложная, т.к. данные неправильно отображались в готовом документе, но мы довольно быстро справились благодаря командной работе".
+
+//[[Вернуться к этому участнику->4]]//
+
+
+:: 6 [6] {"position":"700,700","size":"100,100"}
+Третьим пунктом в нашем проекте была проверка и корректировка кода, ей занимался Westwood.
+
+//[[Узнать о задаче подробнее->7]]
+[[Перейти к следующему участнику->8]]//
+
+
+:: 7 [7] {"position":"525,700","size":"100,100"}
+<img src="https://raw.githubusercontent.com/ItsArtem/Twine/refs/heads/main/%D0%A1%D0%B0%D0%BD%D1%8F%D0%9A.jpg" class="photo">
+Вот его комментарии:
+"Во время работы я с кайфом смотрел на выполнение работы, которую делал Рома, а в это время я попивал энергетик, мне очень понравилась моя работа".
+
+//[[Вернуться к этому участнику->6]]//
+
+
+:: 8 [8] {"position":"575,850","size":"100,100"}
+Четвертым стало генерация справок, которую делал Миша.
+
+//[[Узнать о задаче подробнее->9]]
+[[Перейти к следующему участнику->10]]//
+
+
+:: 9 [9] {"position":"850,825","size":"100,100"}
+<img src="https://raw.githubusercontent.com/ItsArtem/Twine/refs/heads/main/photo_5226862181918826844_x.jpg" class="photo">
+Его комментарии:
+"Я являлся спонсором этой команды и мне пришлось что-то генерировать, я очень недоволен работой которую положили на меня".
+
+//[[Вернуться к этому участнику->8]]//
+
+
+:: StoryStylesheet [stylesheet]
+tw-story {
+color: #FFFFFF;
+flex-direction: column-reverse;
+}
+
+tw-story[tags~="1"] {
+background-image:url("https://avatars.mds.yandex.net/i?id=bcad3e46aa679de4264c5506cbc8af93_l-5192496-images-thumbs&n=13");
+background-size:cover;
+  
+}
+
+tw-story[tags~="2"] {
+background-image:url("https://avatars.mds.yandex.net/i?id=bcad3e46aa679de4264c5506cbc8af93_l-5192496-images-thumbs&n=13");
+background-size:cover;
+}
+
+tw-story[tags~="3"] {
+background-image:url("https://avatars.mds.yandex.net/i?id=bcad3e46aa679de4264c5506cbc8af93_l-5192496-images-thumbs&n=13");
+background-size:cover;
+}
+
+
+tw-story[tags~="4"] {
+background-image:url("https://avatars.mds.yandex.net/i?id=bcad3e46aa679de4264c5506cbc8af93_l-5192496-images-thumbs&n=13");
+background-size:cover;
+}
+
+tw-story[tags~="5"] {
+background-image:url("https://avatars.mds.yandex.net/i?id=bcad3e46aa679de4264c5506cbc8af93_l-5192496-images-thumbs&n=13");
+background-size:cover;
+}
+
+tw-story[tags~="6"] {
+background-image:url("https://avatars.mds.yandex.net/i?id=bcad3e46aa679de4264c5506cbc8af93_l-5192496-images-thumbs&n=13");background-size:cover;
+}
+
+tw-story[tags~="7"] {
+background-image:url("https://avatars.mds.yandex.net/i?id=bcad3e46aa679de4264c5506cbc8af93_l-5192496-images-thumbs&n=13");
+background-size:cover;
+}
+
+tw-story[tags~="8"] {
+background-image:url("https://avatars.mds.yandex.net/i?id=bcad3e46aa679de4264c5506cbc8af93_l-5192496-images-thumbs&n=13");
+background-size:cover;
+}
+
+tw-story[tags~="9"] {
+background-image:url("https://avatars.mds.yandex.net/i?id=bcad3e46aa679de4264c5506cbc8af93_l-5192496-images-thumbs&n=13");
+background-size:cover;
+}
+
+tw-story[tags~="10"] {
+background:url("https://video-preview.s3.yandex.net/iiIXLAIAAAA.mp4");
+background-size:cover;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.photo {
+   width: 500px;
+   height: auto;
+   border-radius: 10px;
+   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+   margin: 0 10px;
+   display: flex
+   flex-wrap: nowrap;
+}
+
+.photo1 {
+   width: 1200px;
+   height: auto;
+   border-radius: 10px;
+   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+   display: flex
+   flex-wrap: nowrap;
+}
